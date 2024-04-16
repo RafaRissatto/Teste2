@@ -101,7 +101,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "Teste"
+PACKAGE = "Teste2"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Rafael Rissatto"
