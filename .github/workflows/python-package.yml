@@ -38,6 +38,15 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - uses: pypa/gh-action-pip-audit@v1.0.0
-      with:
-        inputs: requirements.txt
+  selftest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install
+        run: |
+          python -m venv env/
+          source env/bin/activate
+          python -m pip install .
+      - uses: pypa/gh-action-pip-audit@v1.0.8
+        with:
+          virtual-environment: env/
