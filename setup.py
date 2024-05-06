@@ -2,7 +2,7 @@ import codecs
 import os
 import sys
 
-from distutils.util import convert_path
+from distutils.util import convert_path # type: ignore
 from fnmatch import fnmatchcase
 from setuptools import setup, find_packages
 
@@ -101,7 +101,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "Teste2"
+PACKAGE = "Gittest"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Rafael Rissatto"
