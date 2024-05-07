@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Gittest/__init__.py
+Gittest/gitfoto.py
+Gittest/test_pytest.py
+Gittest.egg-info/PKG-INFO
+Gittest.egg-info/SOURCES.txt
+Gittest.egg-info/dependency_links.txt
+Gittest.egg-info/not-zip-safe
+Gittest.egg-info/requires.txt
+Gittest.egg-info/top_level.txt
