@@ -122,7 +122,7 @@ setup(
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
     classifiers=[
-        "Development Status :: 2 – Pre-Alpha",
+        "Development Status :: ObscureUnix",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
