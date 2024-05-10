@@ -6,7 +6,6 @@ Home-page: https://github.com/RafaRissatto/Teste.git
 Author: Rafael Rissatto
 Author-email: rafaelrissatto9@gmail.com
 License: GNU AFFERO GENERAL PUBLIC LICENSE
-Classifier: Development Status :: ObscureUnix
 Classifier: Environment :: Console
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
