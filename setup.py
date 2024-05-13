@@ -101,7 +101,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "Gittest-para-package-R"
+PACKAGE = "appparabuscarfotodeperfilgit"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Rafael Rissatto"
