@@ -15,6 +15,7 @@ Classifier: Programming Language :: Python :: 3.6
 Classifier: Framework :: Pytest
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: requests
 
 # Teste2
 Fazendo meu primeiro Pack
