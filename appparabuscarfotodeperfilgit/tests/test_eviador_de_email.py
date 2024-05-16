@@ -1,4 +1,4 @@
-from appparabuscarfotodeperfilgit.spam.enviador_de_email import Enviador
+from appparabuscarfotodeperfilgit.spam.enviador_de_email import Emailinvalido, Enviador
 import pytest
 
 
@@ -9,14 +9,14 @@ def teste_criar_enviador_de_email():
 
 @pytest.mark.parametrize(
     'remetente',
-    ['rafaelrissatto9@gmail.com', 'fffbar@gmail.com']
+    ['rafaelrissatto9il.com', 'fffbargmail.com']
 )
-def test_remetente(remetente):
+def test_remetente_invalido(remetente):
     enviador = Enviador()
-    resultado = enviador.enviar(
-        remetente,
-        'vkmoveis@gmail.com',
-        'Testando o email com python',
-        'Esse email foi criado por Rafael para teste'
-        )
-    assert remetente in resultado
+    with pytest.raises(Emailinvalido):
+        enviador.enviar(
+            remetente,
+            'vkmoveis@gmail.com',
+            'Testando o email com python',
+            'Esse email foi criado por Rafael para teste'
+            )
